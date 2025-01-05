@@ -1,18 +1,10 @@
-FROM eclipse-temurin:17-jdk-alpine
+FROM eclipse-temurin:17-jdk
 
 WORKDIR /app
 
-RUN apk add --no-cache bash
-
-COPY build.gradle.kts settings.gradle.kts ./
-COPY gradle gradle
-COPY gradlew .
-
-
-RUN chmod +x gradlew && ./gradlew --no-daemon dependencies
-
 COPY . .
-RUN ./gradlew --no-daemon build -x test
+RUN chmod +x gradlew
+RUN ./gradlew build -x test
 
 EXPOSE 8080
 
