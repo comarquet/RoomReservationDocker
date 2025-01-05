@@ -1,0 +1,20 @@
+
+8__sonar_lambda_4$com.roomreservation.service.RoomServiceÅ
+w/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/service/RoomService.java0 0(E"1*Õ
+10. 0(DJH
+0 0(- 
+%3java.lang.RuntimeException"java.lang.RuntimeException¡
+æ
+0 0(E
+%4"6java.lang.RuntimeException#<init>(Ljava/lang/String;)V*>
+
+__unknown_file ("
+ 
+%3java.lang.RuntimeException*4
+
+__unknown_file (
+RoomEntity not found".
+0 0(E"
+ 
+%3java.lang.RuntimeExceptionB
+java.util.function.Supplier

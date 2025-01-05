@@ -1,0 +1,3 @@
+com.roomreservation.service.BookingService#<init>(Lcom/roomreservation/repository/BookingDao;Lcom/roomreservation/repository/RoomDao;Lcom/roomreservation/repository/UserDao;Lcom/roomreservation/service/RoomService;)V
+false
+bf6a3a7adae528425a07cda9e5750d14

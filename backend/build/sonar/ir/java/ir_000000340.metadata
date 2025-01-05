@@ -1,0 +1,19 @@
+com.roomreservation.service.CardService#assignCardToUser(Ljava/lang/Long;Lcom/roomreservation/record/CardCommandRecord;)Lcom/roomreservation/model/CardEntity;
+false
+dd562d1386556e41560b5164fc9356c9
+com.roomreservation.model.CardEntity#<init>()V
+com.roomreservation.model.CardEntity#instance-init#
+com.roomreservation.record.CardCommandRecord#cardNumber()Ljava/lang/String;
+java.lang.RuntimeException#<init>(Ljava/lang/String;)V
+java.lang.RuntimeException#instance-init#
+java.util.Optional#isPresent()Z
+java.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;
+==
+delete org.springframework.data.repository.CrudRepository#delete(Ljava/lang/Object;)V
+findByCardNumber com.roomreservation.repository.CardDao#findByCardNumber(Ljava/lang/String;)Ljava/util/Optional;
+findById org.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;
+getCardEntity com.roomreservation.model.UserEntity#getCardEntity()Lcom/roomreservation/model/CardEntity;
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;
+setCardEntity com.roomreservation.model.UserEntity#setCardEntity(Lcom/roomreservation/model/CardEntity;)V
+setCardNumber com.roomreservation.model.CardEntity#setCardNumber(Ljava/lang/String;)V
+setUserEntity com.roomreservation.model.CardEntity#setUserEntity(Lcom/roomreservation/model/UserEntity;)V

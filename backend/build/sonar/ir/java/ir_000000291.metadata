@@ -1,0 +1,11 @@
+com.roomreservation.service.RoomService#createRoom(Lcom/roomreservation/record/RoomRecord;)Lcom/roomreservation/record/RoomRecord;
+false
+4d633ba02bd8f075fbd1637c2bfd0890
+com.roomreservation.mapper.RoomMapper#of(Lcom/roomreservation/model/RoomEntity;)Lcom/roomreservation/record/RoomRecord;
+com.roomreservation.model.RoomEntity#<init>()V
+com.roomreservation.model.RoomEntity#instance-init#
+com.roomreservation.record.RoomRecord#capacity()I
+com.roomreservation.record.RoomRecord#name()Ljava/lang/String;
+==
+!unknownMethod! !unknownMethod!
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;

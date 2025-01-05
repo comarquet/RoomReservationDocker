@@ -1,0 +1,6 @@
+com.roomreservation.service.BookingService#validateBookingTime(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)V
+false
+e3c36fcd76de79cb7b7e6216f481f469
+java.lang.RuntimeException#<init>(Ljava/lang/String;)V
+java.lang.RuntimeException#instance-init#
+java.time.LocalDateTime#isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Z

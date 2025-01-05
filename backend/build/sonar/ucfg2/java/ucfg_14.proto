@@ -1,0 +1,77 @@
+
+¿com.roomreservation.config.SecurityConfig#securityFilterChain(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/web/SecurityFilterChain;ƒ
+y/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/config/SecurityConfig.java (0"startingBlock*‘
+startingBlock0 (CÜ
+Ù
+ (
+%9"
+__annotate*K
+
+__unknown_file (/-
++org.springframework.context.annotation.Bean*n
+
+__unknown_file (R
+P
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurity‘
+Ž
+> (BP
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurity"__annotation*"
+
+__unknown_file (
+
+%9*
+1*â
+1 (õò
+ (,N
+%0Horg.springframework.security.config.annotation.web.builders.HttpSecurity"Éorg.springframework.security.config.annotation.web.builders.HttpSecurity#csrf(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;*n
+
+__unknown_file (R
+P
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurity*"
+
+__unknown_file (
+""26csrf(Lorg/springframework/security/config/Customizer;)²
+¯
+ (D4
+%1.org.springframework.security.config.Customizer"__declareFunction*Z
+
+__unknown_file (><
+:__sonar_lambda_0$com.roomreservation.config.SecurityConfig©¦
+ (EN
+%3Horg.springframework.security.config.annotation.web.builders.HttpSecurity"Ìorg.springframework.security.config.annotation.web.builders.HttpSecurity#headers(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;*l
+
+__unknown_file (P
+N
+%0Horg.springframework.security.config.annotation.web.builders.HttpSecurity*R
+
+__unknown_file (6
+4
+%1.org.springframework.security.config.Customizer29headers(Lorg/springframework/security/config/Customizer;)²
+¯
+ (!4
+%4.org.springframework.security.config.Customizer"__declareFunction*Z
+
+__unknown_file (><
+:__sonar_lambda_1$com.roomreservation.config.SecurityConfigÅÂ
+ ("N
+%7Horg.springframework.security.config.annotation.web.builders.HttpSecurity"Úorg.springframework.security.config.annotation.web.builders.HttpSecurity#authorizeHttpRequests(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;*l
+
+__unknown_file (P
+N
+%3Horg.springframework.security.config.annotation.web.builders.HttpSecurity*R
+
+__unknown_file (6
+4
+%4.org.springframework.security.config.Customizer2GauthorizeHttpRequests(Lorg/springframework/security/config/Customizer;)«¨
+ (A
+%8;org.springframework.security.web.DefaultSecurityFilterChain"`org.springframework.security.config.annotation.AbstractSecurityBuilder#build()Ljava/lang/Object;*n
+
+__unknown_file (R
+P
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurity2build()"O
+ (C
+A
+%8;org.springframework.security.web.DefaultSecurityFilterChain:\
+1 (BP
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurityB-+
+)com.roomreservation.config.SecurityConfigH

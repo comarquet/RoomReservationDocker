@@ -1,0 +1,55 @@
+
+8__sonar_lambda_5$com.roomreservation.service.RoomService
+w/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/service/RoomService.java> >(?"startingBlock*¤
+startingBlock> >(?¡
+ž
+
+__unknown_file ($
+	startTimejava.time.LocalDateTime"__id*V
+
+__unknown_file (:*8)
+'com.roomreservation.service.RoomService"
+	startTime
+š
+
+__unknown_file ("
+endTimejava.time.LocalDateTime"__id*T
+
+__unknown_file (8*6)
+'com.roomreservation.service.RoomService"	
+endTime¿
+¼
+
+__unknown_file (;
+RoomService.this'com.roomreservation.service.RoomService"__id*]
+
+__unknown_file (A*?)
+'com.roomreservation.service.RoomService"
+RoomService.this*
+1*‹
+1> >(%Þ
+Û
+> >(?
+%4boolean"’com.roomreservation.service.RoomService#isRoomAvailable(Lcom/roomreservation/model/RoomEntity;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)Z*Y
+
+__unknown_file (=
+;
+RoomService.this'com.roomreservation.service.RoomService*J
+
+__unknown_file (.
+,
+room$com.roomreservation.model.RoomEntity*B
+
+__unknown_file (&
+$
+	startTimejava.time.LocalDateTime*@
+
+__unknown_file ($
+"
+endTimejava.time.LocalDateTime"
+> >(?
+
+%4boolean:8
+> >(,
+room$com.roomreservation.model.RoomEntityB 
+java.util.function.Predicate

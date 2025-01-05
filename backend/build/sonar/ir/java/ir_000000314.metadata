@@ -1,0 +1,8 @@
+com.roomreservation.service.BookingService#hasConflictingBookings(Ljava/lang/Long;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/Long;)Z
+false
+26bc34839424a18902e448a7a5468740
+==
+anyMatch java.util.stream.Stream#anyMatch(Ljava/util/function/Predicate;)Z
+filter java.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+findByRoomEntityId com.roomreservation.repository.BookingDao#findByRoomEntityId(Ljava/lang/Long;)Ljava/util/List;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

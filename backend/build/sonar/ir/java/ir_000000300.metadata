@@ -1,0 +1,14 @@
+com.roomreservation.api.UserController#updateUser(Ljava/lang/Long;Lcom/roomreservation/record/UserCommandRecord;)Lorg/springframework/http/ResponseEntity;
+false
+3945a105d1bfbc0358ade6eb9d74892c
+com.roomreservation.mapper.UserMapper#of(Lcom/roomreservation/model/UserEntity;)Lcom/roomreservation/record/UserRecord;
+com.roomreservation.model.UserEntity#<init>()V
+com.roomreservation.model.UserEntity#instance-init#
+com.roomreservation.record.UserCommandRecord#email()Ljava/lang/String;
+com.roomreservation.record.UserCommandRecord#firstName()Ljava/lang/String;
+com.roomreservation.record.UserCommandRecord#lastName()Ljava/lang/String;
+com.roomreservation.record.UserCommandRecord#password()Ljava/lang/String;
+org.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;
+==
+!unknownMethod! !unknownMethod!
+updateUser com.roomreservation.service.UserService#updateUser(Ljava/lang/Long;Lcom/roomreservation/model/UserEntity;)Lcom/roomreservation/model/UserEntity;

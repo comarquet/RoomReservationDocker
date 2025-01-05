@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+    <!-- Ignore EI issues in data classes -->
+    <Match>
+        <Or>
+            <Package name="~com\.roomreservation\.model.*"/>
+            <Package name="~com\.roomreservation\.record.*"/>
+            <Package name="~com\.roomreservation\.api.*"/>
+            <Package name="~com\.roomreservation\.service.*"/>
+        </Or>
+        <Bug code="EI,EI2"/>
+    </Match>
+</FindBugsFilter>

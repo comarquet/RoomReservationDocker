@@ -1,0 +1,7 @@
+com.roomreservation.api.UserController#deleteUser(Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;
+false
+5e471f5bcded3545081f62276d0495ac
+org.springframework.http.ResponseEntity#noContent()Lorg/springframework/http/ResponseEntity$HeadersBuilder;
+==
+build org.springframework.http.ResponseEntity$HeadersBuilder#build()Lorg/springframework/http/ResponseEntity;
+deleteUser com.roomreservation.service.UserService#deleteUser(Ljava/lang/Long;)V

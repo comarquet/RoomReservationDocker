@@ -1,0 +1,4 @@
+com.roomreservation.RoomReservationApplication#main([Ljava/lang/String;)V
+false
+58c77ab249357597f146acf89c3caf11
+org.springframework.boot.SpringApplication#run(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;

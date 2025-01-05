@@ -1,0 +1,7 @@
+com.roomreservation.mapper.BookingMapper#of(Lcom/roomreservation/model/BookingEntity;)Lcom/roomreservation/record/BookingRecord;
+false
+502016fb7313b0097a168b67fc2d6357
+com.roomreservation.record.BookingRecord#<init>(Ljava/lang/Long;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Long;)V
+com.roomreservation.record.BookingRecord#instance-init#
+==
+!unknownMethod! !unknownMethod!

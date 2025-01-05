@@ -1,0 +1,9 @@
+com.roomreservation.service.UserService#validateLogin(Ljava/lang/String;Ljava/lang/String;)Lcom/roomreservation/model/UserEntity;
+false
+843c9fcd4c04ddc4b28d298122891f89
+java.lang.RuntimeException#<init>(Ljava/lang/String;)V
+java.lang.RuntimeException#instance-init#
+java.lang.String#equals(Ljava/lang/Object;)Z
+==
+!unknownMethod! !unknownMethod!
+findByEmailIgnoreCase com.roomreservation.repository.UserDao#findByEmailIgnoreCase(Ljava/lang/String;)Lcom/roomreservation/model/UserEntity;

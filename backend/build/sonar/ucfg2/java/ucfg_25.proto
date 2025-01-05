@@ -1,0 +1,59 @@
+
+ com.roomreservation.TransactionConfig#transactionManager(Ljakarta/persistence/EntityManagerFactory;)Lorg/springframework/transaction/PlatformTransactionManager;
+u/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/TransactionConfig.java$ (6"startingBlock*ç
+startingBlock6 (aÏ
+Ì
+ (
+
+%2"
+__annotate*N
+
+__unknown_file (20
+.org.springframework.context.annotation.Primary*^
+
+__unknown_file (B
+@
+entityManagerFactory(jakarta.persistence.EntityManagerFactoryÌ
+É
+ (
+%3"
+__annotate*K
+
+__unknown_file (/-
++org.springframework.context.annotation.Bean*^
+
+__unknown_file (B
+@
+entityManagerFactory(jakarta.persistence.EntityManagerFactory¥
+¢
+L (`@
+entityManagerFactory(jakarta.persistence.EntityManagerFactory"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*‚
+1% (9xv
+ ($7
+%01org.springframework.orm.jpa.JpaTransactionManager"1org.springframework.orm.jpa.JpaTransactionManager±
+®
+ (:
+%1"eorg.springframework.orm.jpa.JpaTransactionManager#<init>(Ljakarta/persistence/EntityManagerFactory;)V*U
+
+__unknown_file (9
+7
+%01org.springframework.orm.jpa.JpaTransactionManager*^
+
+__unknown_file (B
+@
+entityManagerFactory(jakarta.persistence.EntityManagerFactory"E
+ (;9
+7
+%01org.springframework.orm.jpa.JpaTransactionManager:L
+7 (`@
+entityManagerFactory(jakarta.persistence.EntityManagerFactoryB)'
+%com.roomreservation.TransactionConfigH

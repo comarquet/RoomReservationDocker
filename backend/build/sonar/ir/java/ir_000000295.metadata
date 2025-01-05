@@ -1,0 +1,7 @@
+com.roomreservation.service.RoomService#isRoomAvailable(Lcom/roomreservation/model/RoomEntity;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)Z
+false
+0c0951ca0a4dc7771e13e393c76ebc6b
+==
+getBookingEntities com.roomreservation.model.RoomEntity#getBookingEntities()Ljava/util/List;
+noneMatch java.util.stream.Stream#noneMatch(Ljava/util/function/Predicate;)Z
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

@@ -1,0 +1,8 @@
+com.roomreservation.model.RoomEntity#getBookingEntities()Ljava/util/List;
+false
+30d2b58037937de1ccb68bf84e93013c
+java.util.stream.Collectors#toList()Ljava/util/stream/Collector;
+==
+collect java.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+map java.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

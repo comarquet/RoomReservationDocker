@@ -1,0 +1,77 @@
+
+’com.roomreservation.api.AccessController#validateAccess(Lcom/roomreservation/record/AccessRequestRecord;)Lorg/springframework/http/ResponseEntity;‚
+x/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/api/AccessController.java. (<"startingBlock*ç
+startingBlock< (l˜
+•
+
+__unknown_file (
+%3"__id*m
+
+__unknown_file (Q*O
+?
+requestRecord.com.roomreservation.record.AccessRequestRecord"
+
+cardNumber˜
+•
+= (I
+%4"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%3
+
+^ (kO
+?
+requestRecord.com.roomreservation.record.AccessRequestRecord"
+
+cardNumber"__annotation*"
+
+__unknown_file (
+
+%4*
+1*Ã	
+1* (7¡
+ž
+* (7/
+%0)com.roomreservation.service.AccessService"__id*[
+
+__unknown_file (?*=*
+(com.roomreservation.api.AccessController"
+accessServiceÒÏ
+* (U5
+%1/com.roomreservation.record.AccessResponseRecord"›com.roomreservation.service.AccessService#validateAccess(Lcom/roomreservation/record/AccessRequestRecord;)Lcom/roomreservation/record/AccessResponseRecord;*M
+
+__unknown_file (1
+/
+%0)com.roomreservation.service.AccessService*]
+
+__unknown_file (A
+?
+requestRecord.com.roomreservation.record.AccessRequestRecord2@validateAccess(Lcom/roomreservation/record/AccessRequestRecord;)«
+¨
+ (VA
+responseRecord/com.roomreservation.record.AccessResponseRecord"__id*S
+
+__unknown_file (7
+5
+%1/com.roomreservation.record.AccessResponseRecordÏ
+Ì
+ (,-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*_
+
+__unknown_file (C
+A
+responseRecord/com.roomreservation.record.AccessResponseRecord";
+ (-/
+-
+%2'org.springframework.http.ResponseEntity:K
+= (k?
+requestRecord.com.roomreservation.record.AccessRequestRecordB,*
+(com.roomreservation.api.AccessControllerH

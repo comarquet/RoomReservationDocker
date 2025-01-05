@@ -1,0 +1,7 @@
+com.roomreservation.service.BookingService#getBookingById(Ljava/lang/Long;)Lcom/roomreservation/record/BookingRecord;
+false
+e70e5b311ec59816674f596070ce8423
+com.roomreservation.mapper.BookingMapper#of(Lcom/roomreservation/model/BookingEntity;)Lcom/roomreservation/record/BookingRecord;
+java.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;
+==
+findById org.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;

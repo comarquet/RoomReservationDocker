@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.roomreservation.AccessServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-01-02T17:32:09" hostname="Corentin" time="6.87">
+  <properties/>
+  <testcase name="validateAccess_InvalidCard()" classname="com.roomreservation.AccessServiceTest" time="6.684"/>
+  <testcase name="validateAccess_NoValidBooking()" classname="com.roomreservation.AccessServiceTest" time="0.094"/>
+  <testcase name="validateAccess_Success()" classname="com.roomreservation.AccessServiceTest" time="0.046"/>
+  <testcase name="validateAccess_ValidCardButNoBooking()" classname="com.roomreservation.AccessServiceTest" time="0.029"/>
+  <system-out><![CDATA[Debug - Card Number: INVALID-CARD
+Debug - Room ID: 1
+Debug - Current Time: 2025-01-02T18:32:16.244715611
+Debug - Card not found
+Debug - Card Number: CARD-TEST001
+Debug - Room ID: 1
+Debug - Current Time: 2025-01-02T18:32:16.460224779
+Debug - Booking found: false
+Debug - Card Number: CARD-TEST001
+Debug - Room ID: 1
+Debug - Current Time: 2025-01-02T18:32:16.528854195
+Debug - Booking found: true
+Debug - Card Number: CARD-TEST001
+Debug - Room ID: 1
+Debug - Current Time: 2025-01-02T18:32:16.567855894
+Debug - Booking found: false
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/home/corentin/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.15.10/e8eb255b2c378b9a6c7341e7b0e12f0a5636377/byte-buddy-agent-1.15.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

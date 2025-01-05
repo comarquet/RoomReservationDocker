@@ -1,0 +1,10 @@
+com.roomreservation.mapper.CardMapper#of(Lcom/roomreservation/model/CardEntity;)Lcom/roomreservation/record/CardRecord;
+false
+dc79ac5f3aa23271830a9db3ebbff609
+com.roomreservation.record.CardRecord#<init>(Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Long;)V
+com.roomreservation.record.CardRecord#instance-init#
+==
+getCardNumber com.roomreservation.model.CardEntity#getCardNumber()Ljava/lang/String;
+getId com.roomreservation.model.CardEntity#getId()Ljava/lang/Long;
+getId com.roomreservation.model.UserEntity#getId()Ljava/lang/Long;
+getUserEntity com.roomreservation.model.CardEntity#getUserEntity()Lcom/roomreservation/model/UserEntity;

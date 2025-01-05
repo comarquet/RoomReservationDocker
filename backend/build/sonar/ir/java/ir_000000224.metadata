@@ -1,0 +1,7 @@
+com.roomreservation.mapper.UserMapper#of(Lcom/roomreservation/model/UserEntity;)Lcom/roomreservation/record/UserRecord;
+false
+d55d658aa0d47d1f439ffba7f9acf06d
+com.roomreservation.record.UserRecord#<init>(Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;)V
+com.roomreservation.record.UserRecord#instance-init#
+==
+!unknownMethod! !unknownMethod!

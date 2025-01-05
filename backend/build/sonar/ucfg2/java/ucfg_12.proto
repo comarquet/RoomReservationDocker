@@ -1,0 +1,19 @@
+
+:__sonar_lambda_0$com.roomreservation.config.SecurityConfigƒ
+y/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/config/SecurityConfig.java (D"1*ž
+1 (!¨¥
+ (DV
+%2Porg.springframework.security.config.annotation.web.configurers.HeadersConfigurer"áorg.springframework.security.config.annotation.web.configurers.HeadersConfigurer#frameOptions(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/configurers/HeadersConfigurer;*y
+
+__unknown_file (]
+[
+headersPorg.springframework.security.config.annotation.web.configurers.HeadersConfigurer*"
+
+__unknown_file (
+""2>frameOptions(Lorg/springframework/security/config/Customizer;)"d
+ (DX
+V
+%2Porg.springframework.security.config.annotation.web.configurers.HeadersConfigurer:g
+ ([
+headersPorg.springframework.security.config.annotation.web.configurers.HeadersConfigurerB20
+.org.springframework.security.config.Customizer

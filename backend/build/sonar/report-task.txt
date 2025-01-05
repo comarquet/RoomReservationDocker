@@ -1,0 +1,7 @@
+organization=comarquet
+projectKey=comarquet_RoomReservation
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.58807
+dashboardUrl=https://sonarcloud.io/dashboard?id=comarquet_RoomReservation
+ceTaskId=AZQoF6o5-bRmtreHqu9B
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZQoF6o5-bRmtreHqu9B

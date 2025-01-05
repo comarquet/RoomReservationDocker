@@ -1,0 +1,6 @@
+com.roomreservation.service.UserService#getUserById(Ljava/lang/Long;)Lcom/roomreservation/model/UserEntity;
+false
+5a4cfd1ebe67b70b4e18413de37d4c12
+java.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;
+==
+findById org.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;

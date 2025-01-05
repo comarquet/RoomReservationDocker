@@ -1,0 +1,9 @@
+com.roomreservation.service.BookingService#getBookingsByUserId(Ljava/lang/Long;)Ljava/util/List;
+false
+9b5b4a78e881e8c2ed78e79c8ee5662b
+java.util.stream.Collectors#toList()Ljava/util/stream/Collector;
+==
+collect java.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+findByUserEntityId com.roomreservation.repository.BookingDao#findByUserEntityId(Ljava/lang/Long;)Ljava/util/List;
+map java.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

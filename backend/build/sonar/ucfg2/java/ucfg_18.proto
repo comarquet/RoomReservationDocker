@@ -1,0 +1,20 @@
+
+8__sonar_lambda_2$com.roomreservation.service.UserServiceÅ
+w/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/service/UserService.java#, #(^"1*Õ
+1#G #(]JH
+#6 #(F 
+%3java.lang.RuntimeException"java.lang.RuntimeException¡
+æ
+#2 #(^
+%4"6java.lang.RuntimeException#<init>(Ljava/lang/String;)V*>
+
+__unknown_file ("
+ 
+%3java.lang.RuntimeException*4
+
+__unknown_file (
+UserEntity not found".
+#2 #(^"
+ 
+%3java.lang.RuntimeExceptionB
+java.util.function.Supplier

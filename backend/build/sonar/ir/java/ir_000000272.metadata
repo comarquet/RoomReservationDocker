@@ -1,0 +1,7 @@
+com.roomreservation.api.BookingController#deleteBooking(Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;
+false
+77f6ecab24d5e82b05e3dbe60252b39d
+org.springframework.http.ResponseEntity#noContent()Lorg/springframework/http/ResponseEntity$HeadersBuilder;
+==
+build org.springframework.http.ResponseEntity$HeadersBuilder#build()Lorg/springframework/http/ResponseEntity;
+deleteBooking com.roomreservation.service.BookingService#deleteBooking(Ljava/lang/Long;)V

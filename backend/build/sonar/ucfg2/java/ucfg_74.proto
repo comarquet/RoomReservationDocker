@@ -1,0 +1,629 @@
+
+•com.roomreservation.service.BookingService#updateBooking(Ljava/lang/Long;Lcom/roomreservation/record/BookingCommandRecord;)Lcom/roomreservation/record/BookingRecord;Ñ
+z/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/service/BookingService.javak k($"startingBlock*á
+46o: o(HÌ
+o: o(T
+%4java.time.LocalDateTime"Tcom.roomreservation.record.BookingCommandRecord#startTime()Ljava/time/LocalDateTime;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2startTime()*
+45*ó
+24
+Ä Ä(&˛˚
+
+Ä Ä(6+
+%32$com.roomreservation.model.RoomEntity"]com.roomreservation.model.BookingEntity#getRoomEntity()Lcom/roomreservation/model/RoomEntity;*P
+
+__unknown_file (4
+2
+booking'com.roomreservation.model.BookingEntity2getRoomEntity()*
+23*Ô
+47o
+ o( ÿ’
+o! o(8
+%3java.lang.Long"Hcom.roomreservation.record.BookingCommandRecord#roomId()Ljava/lang/Long;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2roomId()*
+46*“
+25
+Ä Ä(π∂
+
+Ä Ä(
+%31java.lang.Long"<com.roomreservation.model.RoomEntity#getId()Ljava/lang/Long;*J
+
+__unknown_file (.
+,
+room$com.roomreservation.model.RoomEntity2getId()*
+24*Î
+48m m(O‘
+—
+m m(O
+
+%2void"scom.roomreservation.service.BookingService#validateBookingTime(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)V*J
+
+__unknown_file (.,
+*com.roomreservation.service.BookingService*;
+
+__unknown_file (
+
+%0java.time.LocalDateTime*;
+
+__unknown_file (
+
+%1java.time.LocalDateTime*
+47*É
+49m6 m(DÏÈ
+m6 m(N
+%1java.time.LocalDateTime"Rcom.roomreservation.record.BookingCommandRecord#endTime()Ljava/time/LocalDateTime;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2	endTime()*
+48*Ω
+27}# }(PKI
+} }("!
+%29java.lang.RuntimeException"java.lang.RuntimeException⁄
+◊
+} }(Q
+%30"6java.lang.RuntimeException#<init>(Ljava/lang/String;)V*?
+
+__unknown_file (#
+!
+%29java.lang.RuntimeException*K
+
+__unknown_file (/-
++Cannot modify booking owned by another user*
+3*Í
+29| |(JœÃ
+| |(J
+%28boolean"*java.lang.Long#equals(Ljava/lang/Object;)Z*3
+
+__unknown_file (
+
+%26java.lang.Long*3
+
+__unknown_file (
+
+%27java.lang.Long2equals(Ljava/lang/Object;)*
+25
+27*á
+50m m(Ì
+m m(4
+%0java.time.LocalDateTime"Tcom.roomreservation.record.BookingCommandRecord#startTime()Ljava/time/LocalDateTime;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2startTime()*
+49*
+30|2 |(@Ÿ÷
+|2 |(I
+%27java.lang.Long"Hcom.roomreservation.record.BookingCommandRecord#userId()Ljava/lang/Long;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2userId()*
+29*Õ
+31| |(*∂≥
+| |(*
+%26java.lang.Long"<com.roomreservation.model.UserEntity#getId()Ljava/lang/Long;*I
+
+__unknown_file (-
++
+%25$com.roomreservation.model.UserEntity2getId()*
+30*á
+10
+à à(ÔÏ
+
+à à(1
+%49java.time.LocalDateTime"Rcom.roomreservation.record.BookingCommandRecord#endTime()Ljava/time/LocalDateTime;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2	endTime()*
+9*¢
+32y z(Cå
+â
+y z(C,
+room$com.roomreservation.model.RoomEntity"__id*I
+
+__unknown_file (-
++
+%24$com.roomreservation.model.RoomEntity¸˘
+| |("+
+%25$com.roomreservation.model.UserEntity"]com.roomreservation.model.BookingEntity#getUserEntity()Lcom/roomreservation/model/UserEntity;*P
+
+__unknown_file (4
+2
+booking'com.roomreservation.model.BookingEntity2getUserEntity()*
+31*¿
+11
+á á(6ß§
+
+á á(6
+%48void"Pcom.roomreservation.model.BookingEntity#setStartTime(Ljava/time/LocalDateTime;)V*P
+
+__unknown_file (4
+2
+booking'com.roomreservation.model.BookingEntity*<
+
+__unknown_file ( 
+
+%47java.time.LocalDateTime2'setStartTime(Ljava/time/LocalDateTime;)*
+10*Ó
+33z z(A¢
+ü
+z z(A"
+%21java.util.function.Supplier"__declareFunction*\
+
+__unknown_file (@>
+<__sonar_lambda_12$com.roomreservation.service.BookingService≤Ø
+y z(B+
+%24$com.roomreservation.model.RoomEntity"Ojava.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;*7
+
+__unknown_file (
+
+%20java.util.Optional*@
+
+__unknown_file ($
+"
+%21java.util.function.Supplier2*orElseThrow(Ljava/util/function/Supplier;)*
+32*ƒ
+34y y(A≠™
+y y(A
+%20java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*K
+
+__unknown_file (/
+-
+%18&com.roomreservation.repository.RoomDao*3
+
+__unknown_file (
+
+%19java.lang.Long2findById(Ljava/lang/Object;)*
+33*å
+12
+á á(Û
+
+á á(5
+%47java.time.LocalDateTime"Tcom.roomreservation.record.BookingCommandRecord#startTime()Ljava/time/LocalDateTime;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2startTime()*
+11*é
+35y y(õ
+ò
+y y(-
+%18&com.roomreservation.repository.RoomDao"__id*W
+
+__unknown_file (;*9,
+*com.roomreservation.service.BookingService"	
+roomDaoŸ÷
+y) y(@
+%19java.lang.Long"Hcom.roomreservation.record.BookingCommandRecord#roomId()Ljava/lang/Long;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2roomId()*
+34*Ó
+36w w(O◊
+‘
+w w(O
+%17void"scom.roomreservation.service.BookingService#validateBookingTime(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)V*J
+
+__unknown_file (.,
+*com.roomreservation.service.BookingService*<
+
+__unknown_file ( 
+
+%15java.time.LocalDateTime*<
+
+__unknown_file ( 
+
+%16java.time.LocalDateTime*
+35*»
+14
+Ñ# Ñ(UMK
+
+Ñ Ñ("!
+%45java.lang.RuntimeException"java.lang.RuntimeException·
+ﬁ
+
+Ñ Ñ(V
+%46"6java.lang.RuntimeException#<init>(Ljava/lang/String;)V*?
+
+__unknown_file (#
+!
+%45java.lang.RuntimeException*P
+
+__unknown_file (42
+0Room is not available for the selected time slot*
+3*Ñ
+37w6 w(DÌÍ
+w6 w(N
+%16java.time.LocalDateTime"Rcom.roomreservation.record.BookingCommandRecord#endTime()Ljava/time/LocalDateTime;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2	endTime()*
+36*†
+38t u(Fï
+í
+t u(F2
+booking'com.roomreservation.model.BookingEntity"__id*L
+
+__unknown_file (0
+.
+%14'com.roomreservation.model.BookingEntityÒÓ
+w w(4
+%15java.time.LocalDateTime"Tcom.roomreservation.record.BookingCommandRecord#startTime()Ljava/time/LocalDateTime;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2startTime()*
+37*Û
+16
+É É(4•
+¢
+
+É É(4#
+%40java.util.function.Predicate"__declareFunction*\
+
+__unknown_file (@>
+<__sonar_lambda_13$com.roomreservation.service.BookingServiceû
+õ
+
+__unknown_file (-
+#
+%40java.util.function.Predicate"
+room"__id*J
+
+__unknown_file (.
+,
+room$com.roomreservation.model.RoomEntityçä
+
+Å	 É(5
+%44boolean"Ajava.util.stream.Stream#anyMatch(Ljava/util/function/Predicate;)Z*<
+
+__unknown_file ( 
+
+%39java.util.stream.Stream*A
+
+__unknown_file (%
+#
+%40java.util.function.Predicate2(anyMatch(Ljava/util/function/Predicate;)*
+14
+12*Ò
+39u u(D¢
+ü
+u u(D"
+%11java.util.function.Supplier"__declareFunction*\
+
+__unknown_file (@>
+<__sonar_lambda_11$com.roomreservation.service.BookingServiceµ≤
+t u(E.
+%14'com.roomreservation.model.BookingEntity"Ojava.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;*7
+
+__unknown_file (
+
+%10java.util.Optional*@
+
+__unknown_file ($
+"
+%11java.util.function.Supplier2*orElseThrow(Ljava/util/function/Supplier;)*
+38*ø
+17
+Å	 Ç(¶£
+
+Å	 Ç(
+%39java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*3
+
+__unknown_file (
+
+%38java.util.List2stream()*
+16*œ
+18
+Å	 Å(\∂≥
+
+Å	 Å(\
+%38java.util.List"}com.roomreservation.service.RoomService#getAvailableRooms(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)Ljava/util/List;*L
+
+__unknown_file (0
+.
+%35'com.roomreservation.service.RoomService*<
+
+__unknown_file ( 
+
+%36java.time.LocalDateTime*<
+
+__unknown_file ( 
+
+%37java.time.LocalDateTime2EgetAvailableRooms(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)*
+17*à
+19
+ÅC Å(QÔÏ
+
+ÅC Å([
+%37java.time.LocalDateTime"Rcom.roomreservation.record.BookingCommandRecord#endTime()Ljava/time/LocalDateTime;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2	endTime()*
+18*(
+0 "!
+
+í í(
+implicit return*∂
+2
+ê! ê(Lá
+Ñ
+
+ê! ê(L
+%56java.lang.String"__concat**
+
+ê! ê(;
+Error updating booking: *'
+
+ê> ê(L
+
+%55java.lang.StringMK
+
+ê ê( !
+%57java.lang.RuntimeException"java.lang.RuntimeException∆
+√
+
+ê ê(M
+%58"6java.lang.RuntimeException#<init>(Ljava/lang/String;)V*?
+
+__unknown_file (#
+!
+%57java.lang.RuntimeException*5
+
+__unknown_file (
+
+%56java.lang.String*
+0*ç
+3
+è è(R
+P
+
+è è(
+ejava.lang.Exception"__id*"
+
+__unknown_file (
+""¢ü
+
+ê> ê(L
+%55java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*6
+
+__unknown_file (
+
+ejava.lang.Exception2getMessage()*
+2*›
+startingBlockk$ k(Ró
+î
+j j(
+%59"
+__annotate*A
+
+__unknown_file (%#
+!jakarta.transaction.Transactional*2
+
+__unknown_file (
+
+idjava.lang.LongU
+S
+k* k(,
+idjava.lang.Long"__annotation*#
+
+__unknown_file (
+
+%59ƒ
+¡
+j j(
+%60"
+__annotate*A
+
+__unknown_file (%#
+!jakarta.transaction.Transactional*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecordÉ
+Ä
+kC k(QA
+bookingCommand/com.roomreservation.record.BookingCommandRecord"__annotation*#
+
+__unknown_file (
+
+%60*
+50*P
+5
+ã ã(8"?
+
+ã ã(81
+/
+%54(com.roomreservation.record.BookingRecord*Ú
+6
+ã ã(7€
+ÿ
+
+ã ã(7/
+%54(com.roomreservation.record.BookingRecord"Äcom.roomreservation.mapper.BookingMapper#of(Lcom/roomreservation/model/BookingEntity;)Lcom/roomreservation/record/BookingRecord;*H
+
+__unknown_file (,"*
+(com.roomreservation.mapper.BookingMapper*L
+
+__unknown_file (0
+.
+%53'com.roomreservation.model.BookingEntity*
+5*ó
+7
+ã ã(£
+†
+
+ã ã((0
+%52)com.roomreservation.repository.BookingDao"__id*Z
+
+__unknown_file (>*<,
+*com.roomreservation.service.BookingService"
+
+bookingDao⁄◊
+
+ã ã(6.
+%53'com.roomreservation.model.BookingEntity"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*N
+
+__unknown_file (2
+0
+%52)com.roomreservation.repository.BookingDao*P
+
+__unknown_file (4
+2
+booking'com.roomreservation.model.BookingEntity2save(Ljava/lang/Object;)*
+6*Ë
+8
+â â(—Œ
+
+â â(!
+%51void"^com.roomreservation.model.BookingEntity#setRoomEntity(Lcom/roomreservation/model/RoomEntity;)V*P
+
+__unknown_file (4
+2
+booking'com.roomreservation.model.BookingEntity*J
+
+__unknown_file (.
+,
+room$com.roomreservation.model.RoomEntity25setRoomEntity(Lcom/roomreservation/model/RoomEntity;)*
+7*∫
+9
+à à(2£†
+
+à à(2
+%50void"Ncom.roomreservation.model.BookingEntity#setEndTime(Ljava/time/LocalDateTime;)V*P
+
+__unknown_file (4
+2
+booking'com.roomreservation.model.BookingEntity*<
+
+__unknown_file ( 
+
+%49java.time.LocalDateTime2%setEndTime(Ljava/time/LocalDateTime;)*
+8*Ë
+40t t((†
+ù
+t t((/
+%9)com.roomreservation.repository.BookingDao"__id*Z
+
+__unknown_file (>*<,
+*com.roomreservation.service.BookingService"
+
+bookingDaoÆ´
+t t(5
+%10java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*M
+
+__unknown_file (1
+/
+%9)com.roomreservation.repository.BookingDao*2
+
+__unknown_file (
+
+idjava.lang.Long2findById(Ljava/lang/Object;)*
+39*Ä
+42q+ q(Vnl
+q q(*2
+%7,com.roomreservation.BookingConflictException",com.roomreservation.BookingConflictException˙
+˜
+q q(W
+%8"Hcom.roomreservation.BookingConflictException#<init>(Ljava/lang/String;)V*P
+
+__unknown_file (4
+2
+%7,com.roomreservation.BookingConflictException*I
+
+__unknown_file (-+
+)Room is already booked for this time slot*
+3*±
+20
+Å	 Å(¢
+ü
+
+Å	 Å(.
+%35'com.roomreservation.service.RoomService"__id*[
+
+__unknown_file (?*=,
+*com.roomreservation.service.BookingService"
+roomServiceÛ
+
+Å' Å(A
+%36java.time.LocalDateTime"Tcom.roomreservation.record.BookingCommandRecord#startTime()Ljava/time/LocalDateTime;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2startTime()*
+19*˛
+44p" p($„
+‡
+o
+ p(%
+%6boolean"ñcom.roomreservation.service.BookingService#hasConflictingBookings(Ljava/lang/Long;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/Long;)Z*J
+
+__unknown_file (.,
+*com.roomreservation.service.BookingService*2
+
+__unknown_file (
+
+%3java.lang.Long*;
+
+__unknown_file (
+
+%4java.time.LocalDateTime*;
+
+__unknown_file (
+
+%5java.time.LocalDateTime*2
+
+__unknown_file (
+
+idjava.lang.Long*
+40
+42*Ó
+22
+Ä Ä(?—Œ
+
+Ä Ä(?
+%34boolean"*java.lang.Long#equals(Ljava/lang/Object;)Z*3
+
+__unknown_file (
+
+%31java.lang.Long*3
+
+__unknown_file (
+
+%33java.lang.Long2equals(Ljava/lang/Object;)*
+20
+12*É
+45p p(ÏÈ
+p p( 
+%5java.time.LocalDateTime"Rcom.roomreservation.record.BookingCommandRecord#endTime()Ljava/time/LocalDateTime;*_
+
+__unknown_file (C
+A
+bookingCommand/com.roomreservation.record.BookingCommandRecord2	endTime()*
+44*—
+23
+Ä Ä(>∏µ
+
+Ä Ä(>
+%33java.lang.Long"<com.roomreservation.model.RoomEntity#getId()Ljava/lang/Long;*I
+
+__unknown_file (-
++
+%32$com.roomreservation.model.RoomEntity2getId()*
+22: 
+k% k(-
+idjava.lang.Long:M
+k. k(QA
+bookingCommand/com.roomreservation.record.BookingCommandRecordB.,
+*com.roomreservation.service.BookingServiceH`

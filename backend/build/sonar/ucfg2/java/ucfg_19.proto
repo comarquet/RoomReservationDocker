@@ -1,0 +1,43 @@
+
+kcom.roomreservation.service.UserService#getUserById(Ljava/lang/Long;)Lcom/roomreservation/model/UserEntity;Å
+w/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/service/UserService.java" "("1*‡
+1# #(ó
+î
+# #(,
+%0&com.roomreservation.repository.UserDao"__id*T
+
+__unknown_file (8*6)
+'com.roomreservation.service.UserService"	
+userDao™ß
+# #(
+%1java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*J
+
+__unknown_file (.
+,
+%0&com.roomreservation.repository.UserDao*2
+
+__unknown_file (
+
+idjava.lang.Long2findById(Ljava/lang/Object;)ù
+ö
+#, #(^!
+%2java.util.function.Supplier"__declareFunction*X
+
+__unknown_file (<:
+8__sonar_lambda_2$com.roomreservation.service.UserServiceØ¨
+# #(_*
+%5$com.roomreservation.model.UserEntity"Ojava.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;*6
+
+__unknown_file (
+
+%1java.util.Optional*?
+
+__unknown_file (#
+!
+%2java.util.function.Supplier2*orElseThrow(Ljava/util/function/Supplier;)"8
+# #(`,
+*
+%5$com.roomreservation.model.UserEntity: 
+"  "('
+idjava.lang.LongB+)
+'com.roomreservation.service.UserServiceH

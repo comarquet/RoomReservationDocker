@@ -1,0 +1,7 @@
+com.roomreservation.config.SecurityConfig#securityFilterChain(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/web/SecurityFilterChain;
+false
+97546ad8cd27729fd4950c889d53381c
+org.springframework.security.config.annotation.AbstractSecurityBuilder#build()Ljava/lang/Object;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#authorizeHttpRequests(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#csrf(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#headers(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;

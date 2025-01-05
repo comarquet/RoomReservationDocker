@@ -1,0 +1,5 @@
+com.roomreservation.service.BookingService#deleteBooking(Ljava/lang/Long;)V
+false
+0f7520d56c003cf445ed6780d0da084c
+==
+deleteById org.springframework.data.repository.CrudRepository#deleteById(Ljava/lang/Object;)V

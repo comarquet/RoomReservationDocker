@@ -1,0 +1,13 @@
+com.roomreservation.service.AccessService#validateAccess(Lcom/roomreservation/record/AccessRequestRecord;)Lcom/roomreservation/record/AccessResponseRecord;
+false
+4c88f9d7ac103355fccce04783fccc8c
+com.roomreservation.record.AccessRequestRecord#cardNumber()Ljava/lang/String;
+com.roomreservation.record.AccessRequestRecord#roomId()Ljava/lang/Long;
+com.roomreservation.record.AccessResponseRecord#<init>(Z)V
+com.roomreservation.record.AccessResponseRecord#instance-init#
+java.time.LocalDateTime#now()Ljava/time/LocalDateTime;
+java.util.Optional#isPresent()Z
+==
+findByCardNumber com.roomreservation.repository.CardDao#findByCardNumber(Ljava/lang/String;)Ljava/util/Optional;
+findValidBooking com.roomreservation.repository.BookingDao#findValidBooking(Ljava/lang/String;Ljava/lang/Long;Ljava/time/LocalDateTime;)Lcom/roomreservation/model/BookingEntity;
+println java.io.PrintStream#println(Ljava/lang/String;)V

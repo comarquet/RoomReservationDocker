@@ -1,0 +1,46 @@
+
+Icom.roomreservation.model.RoomEntity#getBookingEntities()Ljava/util/List;~
+t/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/model/RoomEntity.java" "(/"1*²
+1# #(„
+
+# #(
+%0java.util.List"__id*Y
+
+__unknown_file (=*;&
+$com.roomreservation.model.RoomEntity"
+bookingEntities¢Ÿ
+# #(#
+%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*2
+
+__unknown_file (
+
+%0java.util.List2stream()†ƒ
+# #(:
+%2java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%1java.util.stream.Stream*"
+
+__unknown_file (
+""2"map(Ljava/util/function/Function;)®
+«
+#C #(V 
+%3java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
+
+__unknown_file ("
+java.util.stream.Collectors˜•
+# #(W
+%4java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*;
+
+__unknown_file (
+
+%2java.util.stream.Stream*>
+
+__unknown_file ("
+ 
+%3java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)""
+# #(X
+
+%4java.util.ListB(&
+$com.roomreservation.model.RoomEntityH

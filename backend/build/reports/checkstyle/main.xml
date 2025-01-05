@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.7">
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/TransactionConfig.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/RoomReservationApplication.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/mapper/BookingMapper.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/mapper/RoomMapper.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/mapper/CardMapper.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/mapper/UserMapper.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/api/AuthController.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/api/UserController.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/api/RoomController.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/api/BookingController.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/api/AccessController.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/api/CardController.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/service/AccessService.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/service/RoomService.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/service/UserService.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/service/CardService.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/service/BookingService.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/config/SecurityConfig.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/BookingConflictException.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/model/RoomEntity.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/model/CardEntity.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/model/UserEntity.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/model/BookingEntity.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/repository/CardDao.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/repository/UserDao.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/repository/BookingDao.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/repository/RoomDao.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/record/UserCommandRecord.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/record/RoomRecord.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/record/AccessRequestRecord.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/record/CardRecord.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/record/LoginRequestRecord.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/record/UserRecord.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/record/BookingCommandRecord.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/record/AccessResponseRecord.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/record/CardCommandRecord.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/record/BookingRecord.java">
+</file>
+</checkstyle>

@@ -1,0 +1,31 @@
+
+]com.roomreservation.api.RoomController#getAllRooms()Lorg/springframework/http/ResponseEntity;€
+v/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/api/RoomController.java* (5"1*Ö
+1 (›
+˜
+ ((-
+%0'com.roomreservation.service.RoomService"__id*W
+
+__unknown_file (;*9(
+&com.roomreservation.api.RoomController"
+roomServiceÆÃ
+ (6
+%1java.util.List"Ecom.roomreservation.service.RoomService#getAllRooms()Ljava/util/List;*K
+
+__unknown_file (/
+-
+%0'com.roomreservation.service.RoomService2getAllRooms()¢
+Ÿ
+ (7-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*2
+
+__unknown_file (
+
+%1java.util.List";
+ (8/
+-
+%2'org.springframework.http.ResponseEntityB*(
+&com.roomreservation.api.RoomControllerH

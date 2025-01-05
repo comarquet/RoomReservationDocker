@@ -1,0 +1,9 @@
+com.roomreservation.api.AuthController#login(Lcom/roomreservation/record/LoginRequestRecord;)Lorg/springframework/http/ResponseEntity;
+false
+0147186ae6d7be4f052f6554986161f0
+com.roomreservation.mapper.UserMapper#of(Lcom/roomreservation/model/UserEntity;)Lcom/roomreservation/record/UserRecord;
+com.roomreservation.record.LoginRequestRecord#email()Ljava/lang/String;
+com.roomreservation.record.LoginRequestRecord#password()Ljava/lang/String;
+org.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;
+==
+validateLogin com.roomreservation.service.UserService#validateLogin(Ljava/lang/String;Ljava/lang/String;)Lcom/roomreservation/model/UserEntity;

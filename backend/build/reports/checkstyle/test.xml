@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.7">
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/test/java/com/roomreservation/RoomServiceTest.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/test/java/com/roomreservation/UserServiceTest.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/test/java/com/roomreservation/BookingServiceTest.java">
+</file>
+<file name="/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/test/java/com/roomreservation/AccessServiceTest.java">
+</file>
+</checkstyle>

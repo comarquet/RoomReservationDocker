@@ -1,0 +1,5 @@
+com.roomreservation.TransactionConfig#transactionManager(Ljakarta/persistence/EntityManagerFactory;)Lorg/springframework/transaction/PlatformTransactionManager;
+false
+6e989e5d594506e92de43fedb9d8b22e
+org.springframework.orm.jpa.JpaTransactionManager#<init>(Ljakarta/persistence/EntityManagerFactory;)V
+org.springframework.orm.jpa.JpaTransactionManager#instance-init#

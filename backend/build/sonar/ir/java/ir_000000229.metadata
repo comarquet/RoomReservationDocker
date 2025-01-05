@@ -1,0 +1,6 @@
+com.roomreservation.api.RoomController#createRoom(Lcom/roomreservation/record/RoomRecord;)Lorg/springframework/http/ResponseEntity;
+false
+becbc4ed12a63bdba71804e7593b7832
+org.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;
+==
+createRoom com.roomreservation.service.RoomService#createRoom(Lcom/roomreservation/record/RoomRecord;)Lcom/roomreservation/record/RoomRecord;

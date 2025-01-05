@@ -1,0 +1,6 @@
+com.roomreservation.api.BookingController#getBookingById(Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;
+false
+bd2432e2fccf8fc21a6f7a69cbf6c743
+org.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;
+==
+getBookingById com.roomreservation.service.BookingService#getBookingById(Ljava/lang/Long;)Lcom/roomreservation/record/BookingRecord;

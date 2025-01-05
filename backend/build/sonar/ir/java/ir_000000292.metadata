@@ -1,0 +1,11 @@
+com.roomreservation.service.RoomService#updateRoom(Ljava/lang/Long;Lcom/roomreservation/record/RoomRecord;)Lcom/roomreservation/record/RoomRecord;
+false
+101a0d6d3ed3448a403f0eb743cad0a3
+com.roomreservation.mapper.RoomMapper#of(Lcom/roomreservation/model/RoomEntity;)Lcom/roomreservation/record/RoomRecord;
+com.roomreservation.record.RoomRecord#capacity()I
+com.roomreservation.record.RoomRecord#name()Ljava/lang/String;
+java.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;
+==
+!unknownMethod! !unknownMethod!
+findById org.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;

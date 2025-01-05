@@ -1,0 +1,7 @@
+com.roomreservation.service.UserService#updateUser(Ljava/lang/Long;Lcom/roomreservation/model/UserEntity;)Lcom/roomreservation/model/UserEntity;
+false
+1538e9e8ad6464d66bf7af86d443961b
+==
+!unknownMethod! !unknownMethod!
+getUserById com.roomreservation.service.UserService#getUserById(Ljava/lang/Long;)Lcom/roomreservation/model/UserEntity;
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;

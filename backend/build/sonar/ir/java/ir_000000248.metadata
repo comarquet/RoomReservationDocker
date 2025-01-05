@@ -1,0 +1,9 @@
+com.roomreservation.service.UserService#getAllUsers()Ljava/util/List;
+false
+0d0a869bb48b76d9862ef7ed914ac62d
+java.util.stream.Collectors#toList()Ljava/util/stream/Collector;
+==
+collect java.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+findAll org.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;
+map java.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

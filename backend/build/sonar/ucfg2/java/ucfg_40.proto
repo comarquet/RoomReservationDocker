@@ -1,0 +1,37 @@
+
+€com.roomreservation.mapper.BookingMapper#of(Lcom/roomreservation/model/BookingEntity;)Lcom/roomreservation/record/BookingRecord;‚
+x/home/corentin/Documents/MSE/Web_programming/RoomReservation/src/main/java/com/roomreservation/mapper/BookingMapper.java ( "1*˜
+1	 	(fd
+ (.
+%0(com.roomreservation.record.BookingRecord"(com.roomreservation.record.BookingRecordâ
+ß
+ (
+%1"¦com.roomreservation.record.BookingRecord#<init>(Ljava/lang/Long;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/Long;)V*L
+
+__unknown_file (0
+.
+%0(com.roomreservation.record.BookingRecord*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+"""<
+ (0
+.
+%0(com.roomreservation.record.BookingRecord:D
+! (<8
+bookingEntity'com.roomreservation.model.BookingEntityB,"*
+(com.roomreservation.mapper.BookingMapperH
