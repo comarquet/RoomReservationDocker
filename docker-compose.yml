@@ -22,7 +22,7 @@ services:
     networks:
       - app-network
     volumes:
-      - ./frontend:/app
+      - ./frontend:/app:cached
       - /app/node_modules
 
 networks:
